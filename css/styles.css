@@ -56,12 +56,13 @@ ul, ol {
     letter-spacing: 0.02em;
     padding: 24px;
     display: block;
-    padding-top: 24px; 
-    padding-bottom: 24px;
+   
 }
 .nav-link:hover,
 .nav-link:focus{
     color: #404BBF;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
 .address {
     font-style: normal;
@@ -71,8 +72,7 @@ ul, ol {
 .adress-list{
  display: flex;
  gap: 40px;
- padding-top: 24px; 
- padding-bottom: 24px;
+ 
 }
 .address-link {
     color: #434455;
