@@ -97,7 +97,7 @@ ul, ol {
     }
         
     .hero-btn{
-      
+        text-align: center;
         background-color: #4D5AE5;
         font-weight: 500;
         line-height: 1.5;
@@ -185,7 +185,9 @@ text-transform: capitalize;
    color:  #F4F4FD;
         
     }
-
+.block-image{
+    display: block;
+}
 
 
 
