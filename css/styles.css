@@ -23,12 +23,13 @@ ul, ol {
 .header-container {
  display: flex;
  align-items: center;
- padding-top: 24px; 
-  padding-bottom: 24px;
+
 }
 .navigation{
     display: flex;
     align-items: center;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
 .logo {
     color:  #4D5AE5;
