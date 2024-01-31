@@ -28,8 +28,7 @@ ul, ol {
 .navigation{
     display: flex;
     align-items: center;
-    padding-top: 24px; 
-    padding-bottom: 24px;
+   
 }
 .logo {
     color:  #4D5AE5;
@@ -46,6 +45,8 @@ ul, ol {
 .nav-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
 
 
