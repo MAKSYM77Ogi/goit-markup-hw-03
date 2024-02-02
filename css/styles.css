@@ -127,6 +127,11 @@ ul, ol {
         padding: 120px 0 ;
         visually-hidden;
      }
+     .container-element{
+        display: flex; 
+        gap: 24px; 
+
+     }
      .visually-hidden{
         position: absolute;
      }
