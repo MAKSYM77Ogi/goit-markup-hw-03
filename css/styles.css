@@ -47,7 +47,6 @@ ul, ol {
    
 }
 
-
 .nav-link {color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -110,8 +109,8 @@ ul, ol {
         cursor: pointer;
         color: #fff;
         display: block;
-        min-width: 169px ;
-        height: 56px ;
+        min-width: 169px;
+        height: 56px;
         border: none; 
         border-radius: 4px; 
     }
@@ -123,6 +122,26 @@ ul, ol {
     .hero-btn:hover{
         background-color: #404BBF;
     }
+
+     .section {
+        padding: 120px 0 ;
+        visually-hidden;
+     }
+     .visually-hidden{
+        position: absolute;
+     }
+     .strategy{
+        display: flex;
+        gap: 24px; 
+        width: calc((100% - 72px) / 4); 
+     }
+     .strategy-link{
+        margin-bottom: 8px;
+     }
+
+
+
+
 
     .section-forst{
         background-color: #F4F4FD;
