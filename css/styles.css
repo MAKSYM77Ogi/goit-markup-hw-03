@@ -254,6 +254,7 @@ justify-content: space-between;
 
 .footer-div{
     display: flex;
+    display: inline-block;
 }
 
 
