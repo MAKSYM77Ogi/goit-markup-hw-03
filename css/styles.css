@@ -89,7 +89,6 @@ ul, ol {
     }
 
      .effective-h-van{
-
         gap: 24px; 
      }
        
@@ -125,15 +124,22 @@ ul, ol {
         background-color: #404BBF;
     }
 
+     .container-element{
+        display: flex;
+     }
 
      .visually-hidden{
         position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
      }
-     .strategy{
-        display: flex;
-        gap: 24px; 
-        width: calc((100% - 72px) / 4); 
-     }
+     
+     
      .strategy-link{
         margin-bottom: 8px;
      }
@@ -158,8 +164,8 @@ ul, ol {
  
 
 
-     .title-portfolio{
-    color:  #2E2F42;
+ .title-portfolio{
+color:  #2E2F42;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -181,6 +187,7 @@ justify-content: space-between;
 }
 
 .strategy{
+    
     color:  #2E2F42;
     font-size: 20px;
     font-weight: 500;
