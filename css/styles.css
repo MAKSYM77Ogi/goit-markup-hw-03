@@ -252,6 +252,9 @@ justify-content: space-between;
  letter-spacing: 0.02em;
 }
 
+.footer-div{
+    display: flex;
+}
 
 
 .text-footer {
