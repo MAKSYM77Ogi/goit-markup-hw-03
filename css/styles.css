@@ -151,6 +151,10 @@ ul, ol {
     .section-forst{
         background-color: #F4F4FD;
     }
+     .div-our-team{
+        display: flex; 
+     }
+
     .title-team{
         color:  #2E2F42;
         text-align: center;
@@ -160,8 +164,40 @@ ul, ol {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
     }
  
+.ourteam {
+    display: flex;  
+    justify-content: space-between;
+    flex-wrap: wrap
+    row-gap: 48px;
+}
+
+.li-fon{
+    background-color:  #ffff;
+  }
+ 
+
+    .strategy-link-our {
+        color:  #2E2F42;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;    
+    
+      }
+
+    .text-our {
+        line-height: 1.5 ;
+        letter-spacing: 0.02em;
+     }
+    
+     .block-image{
+    display: block;
+     }
+
 
 
  .title-portfolio{
@@ -208,41 +244,6 @@ justify-content: space-between;
  letter-spacing: 0.02em;
 }
 
-.ourteam {
-    display: flex;  
-    justify-content: space-between;
-
-}
-
-.li-fon{
-    background-color:  #ffff;
-  }
- 
-
-
-    .strategy-link-our {
-        color:  #2E2F42;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;    
-    
-    }
-
-    .text-our {
-        line-height: 1.5 ;
-        letter-spacing: 0.02em;
-    }
-    .logo-part-foter{
-   color:  #F4F4FD;
-        
-    }
-.block-image{
-    display: block;
-}
-
-
 
 
 .text-footer {
@@ -252,7 +253,9 @@ font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
 }
-
+.logo-part-foter{
+    color:  #F4F4FD;
+}
 
     
       
