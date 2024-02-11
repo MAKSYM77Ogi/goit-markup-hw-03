@@ -94,9 +94,7 @@ h1,h2,h3,h4,h5,h6,p{
 
     }
 
-     .container{
-     }
-       
+
 
     .effective{
         font-size: 56px;
@@ -133,7 +131,7 @@ h1,h2,h3,h4,h5,h6,p{
         background-color: #404BBF;
     }
 
-     .container{
+     .section{
         padding: 120, 0;
         display: flex;
         gap: 24px; 
@@ -151,7 +149,10 @@ h1,h2,h3,h4,h5,h6,p{
         border: 0;
      }
     .strategy-flex{
-    
+     gap: 24;
+    }
+    .strategy{
+        
     }
      
      .strategy-link{
