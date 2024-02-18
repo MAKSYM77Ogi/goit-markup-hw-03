@@ -148,12 +148,8 @@ h1,h2,h3,h4,h5,h6,p{
         clip: rect(0, 0, 0, 0);
         border: 0;
      }
-    .strategy-flex{
-     gap: 24;
-    }
-    .strategy{
-        
-    }
+    
+    
      
      .strategy-link{
         margin-bottom: 8px;
@@ -247,7 +243,7 @@ justify-content: space-between;
 .strategy-flex{
     display: flex;
     justify-content: center; 
-    gap: 24;
+    gap: 24px;
 }
 
 .strategy{
