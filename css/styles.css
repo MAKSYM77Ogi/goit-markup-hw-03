@@ -250,8 +250,7 @@ justify-content: space-between;
 }
 
 .strategy{
-    
-   
+    width: calc( (100% -72px ) / 4 ) ;
 }
 .strategy-link{
     color:  #2E2F42;
