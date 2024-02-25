@@ -12,7 +12,8 @@ ul, ol {
     margin: 0;
 }
 h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .container {
     width: 1158px;
@@ -25,8 +26,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .header-container {
  display: flex;
+ height: 72px;
  align-items: center;
- justify-content:space between;
+ justify-content: space-between;
 
 }
 .navigation{
@@ -39,10 +41,12 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.03em;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-    text-align: left;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .logo-foter{
     display: inline-block;
@@ -297,10 +301,7 @@ letter-spacing: 0.02em;
 .logo-part-foter{
     color:  #F4F4FD;
 }
-.logo{
-    display: inline-block; 
-    margin-bottom: 16px; 
-}
+
     
       
 .footer-hero {
