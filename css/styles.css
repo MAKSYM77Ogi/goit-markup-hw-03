@@ -112,12 +112,15 @@ h1,h2,h3,h4,h5,h6,p{
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 0.02em;
+        letter-spacing: 1.12px;
         color: #fff;
         background-color :#2E2F42;
         max-width: 496px;
         margin: 0 auto;
         justify-content: center; 
+        margin-bottom: 48px;
+        text-align: center;
+
 
     }
           
